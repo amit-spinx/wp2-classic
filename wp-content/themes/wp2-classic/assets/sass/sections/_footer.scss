@@ -1,0 +1,9 @@
+footer {
+    float: left;
+    width: 100%;
+    padding: 37px 0;
+    background: $primary-500;
+    @include media-breakpoint-down(lg) {
+        padding: 48px 0;
+    }
+}

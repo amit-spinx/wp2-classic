@@ -1,0 +1,59 @@
+{
+    "theme": "sd-workflow",
+    "plugins": [
+        {
+            "slug": "advanced-custom-fields-pro",
+            "label": "Advanced Custom Fields PRO",
+            "source": "premium",
+            "env": "ACF_PRO_LICENSE"
+        },
+        {
+            "slug": "classic-editor",
+            "label": "Classic Editor",
+            "source": "wporg",
+            "env": null
+        },
+        {
+            "slug": "cookie-notice",
+            "label": "Cookie Notice & Compliance for GDPR / CCPA",
+            "source": "wporg",
+            "env": null
+        },
+        {
+            "slug": "gravityforms",
+            "label": "Gravity Forms",
+            "source": "premium",
+            "env": "GF_LICENSE_KEY"
+        },
+        {
+            "slug": "megamenu",
+            "label": "Max Mega Menu",
+            "source": "wporg",
+            "env": null
+        },
+        {
+            "slug": "svg-support",
+            "label": "SVG Support",
+            "source": "wporg",
+            "env": null
+        },
+        {
+            "slug": "duplicate-post",
+            "label": "Yoast Duplicate Post",
+            "source": "wporg",
+            "env": null
+        },
+        {
+            "slug": "wordpress-seo",
+            "label": "Yoast SEO",
+            "source": "wporg",
+            "env": null
+        },
+        {
+            "slug": "wp-rocket",
+            "label": "WP Rocket",
+            "source": "premium",
+            "env": "WP_ROCKET_KEY"
+        }
+    ]
+}

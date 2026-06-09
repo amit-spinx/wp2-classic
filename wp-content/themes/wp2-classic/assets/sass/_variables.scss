@@ -1,0 +1,122 @@
+// Color Palette: Variable
+
+$color-white:#ffffff;
+$color-black:#222525;
+$color-bg: #F3FAFC;
+
+$gray-25: #FCFCFD;
+$gray-50: #F9FAFB;
+$gray-100: #F2F4F7;
+$gray-200: #EAECF0;
+$gray-300: #D0D5DD;
+$gray-400: #98A2B3;
+$gray-500: #667085;
+$gray-600: #475467;
+$gray-700: #344054;
+$gray-800: #1D2939;
+$gray-900: #101828;
+
+$primary-25: #CCD0F0;
+$primary-50: #ACB3E7;
+$primary-100: #717CD6;
+$primary-200: #3747BE;
+$primary-300: #252F7E;
+$primary-400: #252F7E;
+$primary-500: #131841;
+$primary-600: #101537;
+$primary-700: #0E122F;
+$primary-800: #0B0F28;
+$primary-900: #080A1C;
+
+$secondary-25: #E8E9EA;
+$secondary-50: #D1D2D4;
+$secondary-100: #BBBCBF;
+$secondary-200: #A4A6AA;
+$secondary-300: #8D9095;
+$secondary-400: #76797F;
+$secondary-500: #5F636A;
+$secondary-600: #494D55;
+$secondary-700: #32363F;
+$secondary-800: #101319;
+$secondary-900: #0E1116;
+
+$error-1: #FEF3F2;
+$error-2: #FDA29B;
+$error-3: #F04438;
+$error-4: #D92D20;
+
+$success-1: #ECFDF3;
+$success-2: #12B76A;
+$success-3: #027A48;
+
+// Bootstrap color variable 
+$primary: $color-black;
+$secondary:  $color-white;
+
+$body-bg: $color-white;
+$body-color: $color-black;
+$gray-base: rgb(3, 3, 3) !default;
+$gray-darker: lighten($gray-base, 13.5%) !default; // #222
+$gray-dark: lighten($gray-base, 20%) !default; // #333
+$gray: lighten($gray-base, 33.5%) !default; // #555
+$gray-light: lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter: lighten($gray-base, 93.5%) !default; // #eee
+$theme-colors: (
+  "primary": $color-black,
+  "secondary": $color-black,
+  "warning":    $color-black,
+);
+
+// link color 
+$link-color: $color-black !default;
+$link-hover-color: $color-black !default;
+$link-hover-decoration: none !default;
+
+// Container 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1180px,
+  xxl: 1368px
+) !default;
+
+// Grid gutter width
+$grid-gutter-width: 48px;
+
+$border-width: 1px;
+$accordion-border-width: 0.015625em;
+$card-border-width: $border-width;
+
+$accordion-border-color: $color-black;
+$accordion-button-icon:  url("data:image/svg+xml,<svg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M4 10H16' stroke='#DB5E21' stroke-width='1.5'/><path d='M10 16L10 4' stroke='#DB5E21' stroke-width='1.5'/></svg>");
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M4 10H16' stroke='#ffffff' stroke-width='1.5'/><path d='M10 16L10 4' stroke='#ffffff' stroke-width='1.5'/></svg>");
+$accordion-icon-transition: transform .4s cubic-bezier(0.3, 0.8, 0.4, 1);
+
+// Buttons 
+$input-btn-font-size: 14px !default;
+$btn-font-weight: 500 !default;
+$input-btn-padding-x: 26px !default;
+$input-btn-padding-y: 16px !default;
+
+$btn-border-width: 2px !default;
+$btn-border-radius: 0px !default;
+
+$input-btn-padding-y-sm: 18px !default;
+$input-btn-padding-x-sm: 20px !default;
+
+$btn-box-shadow: none !default;
+
+// Forms Input 
+$input-bg: $color-white !default;
+$input-bg-disabled: $color-white !default;
+$input-color: $color-black !default;
+$input-border-width: 1px;
+$input-border-color: #cccccc !default;
+$input-border-radius: 4px !default;
+$input-font-size: 16px !default;
+$input-font-weight: 400 !default;
+$input-focus-border-color: $color-black !default;
+$input-focus-color: $color-black !default;
+$input-placeholder-color: #cccccc !default;
+$input-height: 58px !default;

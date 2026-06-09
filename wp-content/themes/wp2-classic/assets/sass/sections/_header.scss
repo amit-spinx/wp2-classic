@@ -1,0 +1,9 @@
+header {
+    transition: 0.3s ease-out;
+    * {
+        outline: none;
+    }
+    @include media-breakpoint-up(lg) {
+        padding-bottom: 12px;
+    }
+}

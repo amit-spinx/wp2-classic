@@ -1,0 +1,62 @@
+// Default dependencies CSS
+@import "../main.scss";
+
+@import "../pages/cmn-banner";
+@import "../pages/cmn-cta";
+
+.cms-pages {
+    padding-top: 100px;
+    padding-bottom: 112px;
+}
+body.error404 {
+    background: $color-white;
+    padding-top: 180px;
+    @include media-breakpoint-down(lg) {
+        padding-top: 90px;
+    }
+}
+.page-not-found {
+    background: $color-white;
+    padding: 200px 0;
+    display: flex;
+    align-items: center;
+    top: 0;
+    min-height: 100vh;
+    position: relative;
+    color: $color-white;
+    @include media-breakpoint-down(lg) {
+        padding: 50px 0;
+        min-height: 75vh;
+    }
+    img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        top: 0;
+        left: 0;
+        transform: scale(1);
+        @include media-breakpoint-up(xxl) {
+            left: 50px;
+            top: 50px;
+        }
+    }
+    .not-found-wrapper {
+        max-width: 708px;
+        color: #000;
+        text-align: center;
+        margin: 0 auto;
+        h1 {
+            color: $gray-300;
+            font-weight: 800;
+            line-height: 300px;
+            margin-bottom: 10px;
+            font-size: 200px;
+            @include media-breakpoint-down(lg) {
+                line-height: 180px;
+                font-size: 140px;
+            }
+        }
+    }
+}

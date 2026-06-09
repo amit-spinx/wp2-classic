@@ -1,0 +1,66 @@
+.cmn-cta {
+    padding: 0;
+    .img-wrapper {
+        position: sticky;
+        top: 0;
+        display: block;
+        height: 100%;
+        @include media-breakpoint-down(xl) {
+            position: relative;
+            height: auto;
+        }
+        &:before {
+            display: block;
+            padding-top: 55.56%;
+            content: "";
+            @include media-breakpoint-down(md) {
+                padding-top: 184%;
+            }
+        }
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            top: 0;
+            left: 0;
+            right: 0;
+            position: absolute;
+            bottom: 0;
+            object-position: top center;
+            @include media-breakpoint-down(md) {
+                object-position: 63% center;
+            }
+        }
+    }
+    .bg-white-cta {
+        margin-bottom: 48px;
+        @include media-breakpoint-down(xl) {
+            margin-bottom: 0;
+        }
+        .cta-wrap {
+            //position: absolute;
+            bottom: 48px;
+            background: rgba(255,255,255,0.45);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            width: 756px;
+            left: 0;
+            right: 0;
+            padding: 40px 32px;
+            border-radius: 12px;
+            @include media-breakpoint-down(xl) {
+                position: absolute;
+            }
+            @include media-breakpoint-down(lg) {
+                width: calc(100% - calc(var(--bs-gutter-x)));
+                margin: 0 auto;
+            }
+            h2 {
+                @include media-breakpoint-down(lg) {
+                    font-size: 44px;
+                    line-height: 1.045;
+                }
+            }
+        }
+    }
+}

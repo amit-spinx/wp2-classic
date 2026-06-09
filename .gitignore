@@ -1,0 +1,16 @@
+# WordPress core (managed separately)
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/xmlrpc.php
+/license.txt
+/readme.html
+
+# Content
+wp-content/uploads/
+wp-content/cache/
+
+# Local
+wp-config.php
+*.log

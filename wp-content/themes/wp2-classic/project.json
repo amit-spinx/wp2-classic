@@ -1,0 +1,31 @@
+{
+  "vendor": {
+    "sass": ["./node_modules/bootstrap/scss/"],
+    "js": ["./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"],
+    "fonts": [],
+    "img": [],
+    "css": []
+  },
+  "app": {
+    "css": [],
+    "sass": "./assets/sass/main.scss",
+    "js": [
+      "./assets/js/library/aos.js",
+      "./assets/js/custom.js"
+    ],
+    "fonts": ["./assets/fonts/*.*"],
+    "img": ["./assets/images/"]
+  },
+  
+  "appTemplate": [
+    {
+      "pageName": "home",
+      "js": [
+        "./assets/js/library/slick.min.js",
+        "./assets/js/library/gsap.min.js",
+        "./assets/js/components/counter.js",
+        "./assets/js/home.js"
+      ]
+    }
+  ]
+}
